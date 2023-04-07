@@ -1,6 +1,6 @@
 #!/bin/ash
 
-if [ -z "$@" ]
+if [ -z $1 ]
 then
         echo "No arguments provided for par..."
         /usr/bin/par2 -h
