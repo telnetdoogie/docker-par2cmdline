@@ -3,9 +3,10 @@ name: check-conventional-commits
 on: [pull_request]
 
 jobs:
-  check-for-cc:
+  commitlint:
     runs-on: ubuntu-latest
     steps:
-      - name: check-for-cc
-        id: check-for-cc
-        uses: agenthunt/conventional-commit-checker-action@v1.0.0
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v5
