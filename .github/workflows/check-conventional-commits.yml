@@ -1,9 +1,6 @@
 name: check-conventional-commits
 
-on:
-  pull_request:
-    branches: [main]
-    types: [opened, edited, synchronize]
+on: [pull_request]
 
 jobs:
   check-for-cc:
