@@ -1,3 +1,12 @@
+## [1.0.11](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.10...v1.0.11) (2023-07-24)
+
+
+### Bug Fixes
+
+* use PAT for release creation ([#59](https://github.com/telnetdoogie/docker-par2cmdline/issues/59)) ([74dacac](https://github.com/telnetdoogie/docker-par2cmdline/commit/74dacacda47d9b7ec19fb68f603a12fd4a5e7d80))
+
+
+
 ## [1.0.10](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.9...v1.0.10) (2023-07-24)
 
 
@@ -23,10 +32,6 @@
 
 
 ## [1.0.7](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.6...v1.0.7) (2023-04-15)
-
-
-
-## [1.0.6](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.5...v1.0.6) (2023-04-07)
 
 
 
