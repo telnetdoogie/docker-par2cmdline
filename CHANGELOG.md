@@ -5,6 +5,7 @@
 
 * adding and testing semantic release ([#46](https://github.com/telnetdoogie/docker-par2cmdline/issues/46)) ([51afafd](https://github.com/telnetdoogie/docker-par2cmdline/commit/51afafdd2c3a432108d279989676c8dd2c057775))
 * automate release versions ([#56](https://github.com/telnetdoogie/docker-par2cmdline/issues/56)) ([d34be0c](https://github.com/telnetdoogie/docker-par2cmdline/commit/d34be0c191b9cc3f5a9b71ebfb5374189ce57412))
+* Resolve auto-publish ([#58](https://github.com/telnetdoogie/docker-par2cmdline/issues/58)) ([dde9e8a](https://github.com/telnetdoogie/docker-par2cmdline/commit/dde9e8ab8c99869a68b52847ad4a68ae70b7317c))
 * Semantic release - trying again ([#47](https://github.com/telnetdoogie/docker-par2cmdline/issues/47)) ([447de91](https://github.com/telnetdoogie/docker-par2cmdline/commit/447de91ec1c2d35b3dedd9dfea128a35561359e2))
 * Semantic release ([#50](https://github.com/telnetdoogie/docker-par2cmdline/issues/50)) ([da103c2](https://github.com/telnetdoogie/docker-par2cmdline/commit/da103c224e8ca4ffe13b29f13a4a74ed4366557f))
 * Semantic release ([#51](https://github.com/telnetdoogie/docker-par2cmdline/issues/51)) ([9fe3104](https://github.com/telnetdoogie/docker-par2cmdline/commit/9fe3104f192d044519b75d587d17d9577b56dd94))
