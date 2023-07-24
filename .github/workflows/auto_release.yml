@@ -16,7 +16,7 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3 
         with: 
-          github-token: ${{ secrets.github_token }} 
+          github-token: ${{ secrets.GH_TOKEN }} 
           output-file: "false" 
       - name: Create Release # This action will create the actual release 
         uses: actions/create-release@v1 
