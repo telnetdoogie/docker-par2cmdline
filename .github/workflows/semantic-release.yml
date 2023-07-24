@@ -1,12 +1,14 @@
 on:
-  push:
-    branches:
-      - main
+  [push]
+    #branches:
+    #  - main
 
 jobs:
   main:
     name: Semantic Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Checkout
       uses: actions/checkout@v3
