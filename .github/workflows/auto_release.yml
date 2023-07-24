@@ -9,13 +9,14 @@ on:
 jobs: 
   new-release: 
     runs-on: ubuntu-latest 
-    steps: 
-      - uses: actions/checkout@v3 # Checkout our working repository 
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3 # Checkout our working repository 
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3 
         with: 
-          github-token: ${{ secrets.GH_TOKEN }} 
+          github-token: ${{ secrets.github_token }} 
           output-file: "false" 
       - name: Create Release # This action will create the actual release 
         uses: actions/create-release@v1 
