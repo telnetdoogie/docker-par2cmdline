@@ -1,3 +1,12 @@
+## [1.0.13](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.12...v1.0.13) (2023-09-02)
+
+
+### Reverts
+
+* Revert "chore(deps): update alpine docker tag to v20230901 (#71)" (#72) ([d729ce0](https://github.com/telnetdoogie/docker-par2cmdline/commit/d729ce0524b6c7eb3f2d9fd480ef4835af33662f)), closes [#71](https://github.com/telnetdoogie/docker-par2cmdline/issues/71) [#72](https://github.com/telnetdoogie/docker-par2cmdline/issues/72)
+
+
+
 ## [1.0.12](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.10...v1.0.12) (2023-07-29)
 
 
@@ -28,10 +37,6 @@
 
 
 ## [1.0.8](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.7...v1.0.8) (2023-05-25)
-
-
-
-## [1.0.7](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.6...v1.0.7) (2023-04-15)
 
 
 
