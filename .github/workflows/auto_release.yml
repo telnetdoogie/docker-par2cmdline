@@ -19,8 +19,6 @@ jobs:
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5
-        with:
-          github-token: ${{ secrets.GH_TOKEN }}
       - name: Verify Changelog Output
         run: echo ${{ steps.changelog.outputs.skipped }}
       - name: Create Release # This action will create the actual release 
