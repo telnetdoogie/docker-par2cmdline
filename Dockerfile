@@ -1,4 +1,4 @@
-FROM alpine:3.20.1
+FROM alpine:3.20.2
 RUN apk add par2cmdline
 COPY ./par.sh /
 RUN chmod +x /par.sh
