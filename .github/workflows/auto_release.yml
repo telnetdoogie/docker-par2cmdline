@@ -22,7 +22,7 @@ jobs:
         run: echo ${{ steps.changelog.outputs.skipped }}
       - name: Create Release # This action will create the actual release 
         uses: actions/create-release@v1 
-        if: ${{ steps.changelog.outputs.skipped == 'false' }} 
+#        if: ${{ steps.changelog.outputs.skipped == 'false' }} 
         env: 
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
         with: 
