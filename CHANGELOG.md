@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.2.0...v1.3.0) (2024-07-29)
+
+
+### Features
+
+* Update alpine ([61fa0dd](https://github.com/telnetdoogie/docker-par2cmdline/commit/61fa0ddf3dbb3344f66f41c0a21f43c344923140))
+
+
+
 # [1.2.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.1.0...v1.2.0) (2024-07-24)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.0.17](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.16...v1.0.17) (2023-11-15)
-
-
-
-## [1.0.16](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.15...v1.0.16) (2023-09-02)
-
-
-### Bug Fixes
-
-* **ci:** Remove cosign publish ([#76](https://github.com/telnetdoogie/docker-par2cmdline/issues/76)) ([1c1bd65](https://github.com/telnetdoogie/docker-par2cmdline/commit/1c1bd65a1a1b9bb5d69681f12319d548c994c269))
 
 
 
