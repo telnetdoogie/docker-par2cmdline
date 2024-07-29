@@ -17,7 +17,9 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5
         with:
-          output-file: "false"
+          github-token: ${{ secrets.GH_TOKEN }}
+          output-file: 'CHANGELOG.md'
+          version-file: 'package.json'
       - name: Debug Changelog Outputs
         run: |
           echo "Skipped: ${{ steps.changelog.outputs.skipped }}"
