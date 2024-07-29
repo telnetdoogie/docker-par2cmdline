@@ -18,8 +18,12 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v5
         with:
           output-file: 'CHANGELOG.md'
-      - name: Verify Changelog Output
-        run: echo ${{ steps.changelog.outputs.skipped }}
+      - name: Debug Changelog Outputs
+        run: |
+          echo "Skipped: ${{ steps.changelog.outputs.skipped }}"
+          echo "Tag: ${{ steps.changelog.outputs.tag }}"
+          echo "Clean Changelog: ${{ steps.changelog.outputs.clean_changelog }}"
+          echo "Outputs Skipped: ${{ steps.changelog.outputs.skipped }}"
       - name: Create Release # This action will create the actual release 
         uses: actions/create-release@v1 
         if: ${{ steps.changelog.outputs.skipped == 'false' }} 
