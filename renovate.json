@@ -8,6 +8,16 @@
     {
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true
+    },
+    {
+      "description": "Update PAR2CMDLINE_VERSION in Dockerfile",
+      "matchFiles": ["Dockerfile"],
+      "matchStrings": ["ARG PAR2CMDLINE_VERSION=(?<currentValue>[0-9\\.]+)"],
+      "extractVersion": "^(?<version>[0-9\\.]+)$",
+      "datasource": "github-releases",
+      "depName": "animetosho/par2cmdline-turbo",
+      "lookupName": "animetosho/par2cmdline-turbo",
+      "versioning": "semver"
     }
   ]
 }
