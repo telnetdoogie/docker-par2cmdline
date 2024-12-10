@@ -1,45 +1,35 @@
-## [1.0.16](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.15...v1.0.16) (2023-09-02)
+# [1.3.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.2.0...v1.3.0) (2024-07-29)
 
 
-### Bug Fixes
+### Features
 
-* **ci:** Remove cosign publish ([#76](https://github.com/telnetdoogie/docker-par2cmdline/issues/76)) ([1c1bd65](https://github.com/telnetdoogie/docker-par2cmdline/commit/1c1bd65a1a1b9bb5d69681f12319d548c994c269))
-
-
-
-## [1.0.15](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.14...v1.0.15) (2023-09-02)
-
-
-### Bug Fixes
-
-* **ci:** Update auto_release.yml ([fd4ca07](https://github.com/telnetdoogie/docker-par2cmdline/commit/fd4ca0703cb9c434d4efcd3261e2c63a384a82dd))
+* Update alpine ([61fa0dd](https://github.com/telnetdoogie/docker-par2cmdline/commit/61fa0ddf3dbb3344f66f41c0a21f43c344923140))
 
 
 
-## [1.0.14](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.13...v1.0.14) (2023-09-02)
+# [1.2.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.1.0...v1.2.0) (2024-07-24)
 
 
-### Reverts
+### Features
 
-* Revert "chore(deps): update alpine docker tag to v20230901 (#71)" (#74) ([b9c7423](https://github.com/telnetdoogie/docker-par2cmdline/commit/b9c7423d637ddef7e5f8340534654bfabf340f23)), closes [#71](https://github.com/telnetdoogie/docker-par2cmdline/issues/71) [#74](https://github.com/telnetdoogie/docker-par2cmdline/issues/74)
-
-
-
-## [1.0.13](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.12...v1.0.13) (2023-09-02)
-
-
-### Reverts
-
-* Revert "chore(deps): update alpine docker tag to v20230901 (#71)" (#72) ([d729ce0](https://github.com/telnetdoogie/docker-par2cmdline/commit/d729ce0524b6c7eb3f2d9fd480ef4835af33662f)), closes [#71](https://github.com/telnetdoogie/docker-par2cmdline/issues/71) [#72](https://github.com/telnetdoogie/docker-par2cmdline/issues/72)
+* Update to latest alpine version ([46d1f09](https://github.com/telnetdoogie/docker-par2cmdline/commit/46d1f096c3db63856b005b173f26da82b23aece9))
 
 
 
-## [1.0.12](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.10...v1.0.12) (2023-07-29)
+# [1.1.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.18...v1.1.0) (2024-03-14)
 
 
-### Bug Fixes
+### Features
 
-* use PAT for release creation ([#59](https://github.com/telnetdoogie/docker-par2cmdline/issues/59)) ([74dacac](https://github.com/telnetdoogie/docker-par2cmdline/commit/74dacacda47d9b7ec19fb68f603a12fd4a5e7d80))
+* Update auto_release.yml ([#132](https://github.com/telnetdoogie/docker-par2cmdline/issues/132)) ([b586887](https://github.com/telnetdoogie/docker-par2cmdline/commit/b5868879f9b4802fa60e345d38c5967686b0816e))
+
+
+
+## [1.0.18](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.17...v1.0.18) (2024-03-14)
+
+
+
+## [1.0.17](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.16...v1.0.17) (2023-11-15)
 
 
 
