@@ -1,3 +1,12 @@
+## [1.3.3](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.2...v1.3.3) (2024-12-10)
+
+
+### Bug Fixes
+
+* Update renovate.json ([75c0fef](https://github.com/telnetdoogie/docker-par2cmdline/commit/75c0fef663b39da4a00cd0472b160095fb169357))
+
+
+
 ## [1.3.2](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.1...v1.3.2) (2024-12-10)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * Update to latest alpine version ([46d1f09](https://github.com/telnetdoogie/docker-par2cmdline/commit/46d1f096c3db63856b005b173f26da82b23aece9))
-
-
-
-# [1.1.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.18...v1.1.0) (2024-03-14)
-
-
-### Features
-
-* Update auto_release.yml ([#132](https://github.com/telnetdoogie/docker-par2cmdline/issues/132)) ([b586887](https://github.com/telnetdoogie/docker-par2cmdline/commit/b5868879f9b4802fa60e345d38c5967686b0816e))
 
 
 
