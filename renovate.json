@@ -1,17 +1,21 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "prHourlyLimit": 3,
+  "datasourceTemplate" : ["github-releases": {}],
+  "regexManagers" : [
+    {
+      "fileMatch": ["Dockerfile$"],
+      "matchStrings": ["ARG PAR2CMDLINE_VERSION=(?<currentValue>[0-9\\.]+)"],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "animetosho/par2cmdline-turbo"
+    }
+  ]
   "packageRules": [
     {
-      "description": "Update PAR2CMDLINE_VERSION in Dockerfile",
-      "matchFiles": ["Dockerfile"],
-      "matchStrings": ["ARG PAR2CMDLINE_VERSION=(?<currentValue>[0-9\\.]+)"],
-      "extractVersion": "^(?<version>[0-9\\.]+)$",
-      "datasource": "github-releases",
-      "depName": "animetosho/par2cmdline-turbo"
+      "matchDatasources": ["github-releases"],
+      "matchDepNames": ["animetosho/par2cmdline-turbo"]
+      "extractVersion": "^(?<version>[0-9\\.]+)$"
     },
     {
       "matchUpdateTypes": ["major"],
