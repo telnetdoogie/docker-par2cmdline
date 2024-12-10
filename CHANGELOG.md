@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.1...v1.3.2) (2024-12-10)
+
+
+### Bug Fixes
+
+* Added missing symlinks ([6b6fda8](https://github.com/telnetdoogie/docker-par2cmdline/commit/6b6fda8e6912ed11dee633b87ba95071ac867f41))
+* Added missing symlinks ([f4bc8fa](https://github.com/telnetdoogie/docker-par2cmdline/commit/f4bc8fa9e789d970e7fd9aaf6988f854f9bc3393))
+
+
+
 ## [1.3.1](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.0...v1.3.1) (2024-12-10)
 
 
@@ -31,10 +41,6 @@
 ### Features
 
 * Update auto_release.yml ([#132](https://github.com/telnetdoogie/docker-par2cmdline/issues/132)) ([b586887](https://github.com/telnetdoogie/docker-par2cmdline/commit/b5868879f9b4802fa60e345d38c5967686b0816e))
-
-
-
-## [1.0.18](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.0.17...v1.0.18) (2024-03-14)
 
 
 
