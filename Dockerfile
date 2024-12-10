@@ -24,9 +24,9 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
 # Final Stage
 FROM alpine:3.21.0
 COPY --from=downloader /tmp/par2cmdline-turbo /usr/bin/par2
-RUN ls -s /usr/bin/par2create /usr/bin/par2
-RUN ls -s /usr/bin/par2repair /usr/bin/par2
-RUN ls -s /usr/bin/par2verify /usr/bin/par2
+RUN ls -s /usr/bin/par2 /usr/bin/par2create
+RUN ls -s /usr/bin/par2 /usr/bin/par2repair
+RUN ls -s /usr/bin/par2 /usr/bin/par2verify
 COPY ./par.sh /
 RUN chmod +x /par.sh
 RUN mkdir -p /par2_files/
