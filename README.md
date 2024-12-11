@@ -1,7 +1,7 @@
 # docker-par2cmdline
-Run par from par2cmdline tools in a Docker image
+Run par from par2cmdline-turbo in a Docker image
 
-This docker image is based on alpine linux and installs the par2cmdline tools for use locally.
+This docker image is based on alpine linux and installs the par2cmdline-turbo tools for use locally.
 
 ## installation / build:
 ```
