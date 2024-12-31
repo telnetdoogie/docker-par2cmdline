@@ -3,7 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "prHourlyLimit": 3,
   "customManagers": [
     {
       "customType": "regex",
@@ -24,8 +23,7 @@
       ],
       "matchDepNames": [
         "animetosho/par2cmdline-turbo"
-      ],
-      "extractVersion": "^(?<version>[0-9\\.]+)$"
+      ]
     },
     {
       "matchUpdateTypes": [
