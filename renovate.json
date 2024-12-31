@@ -29,7 +29,7 @@
     },
     {
       "matchUpdateTypes": [
-        "major"
+        "minor"
       ],
       "dependencyDashboardApproval": true
     }
