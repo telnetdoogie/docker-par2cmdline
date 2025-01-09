@@ -1,7 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "group:allNonMajor",
+    "helpers:pinGitHubActionDigests"
   ],
   "customManagers": [
     {
@@ -23,11 +25,6 @@
       ],
       "matchDepNames": [
         "animetosho/par2cmdline-turbo"
-      ]
-    },
-    {
-      "matchUpdateTypes": [
-        "minor"
       ]
     }
   ]
