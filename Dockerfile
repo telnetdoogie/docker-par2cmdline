@@ -3,7 +3,7 @@ ARG PAR2CMDLINE_VERSION=1.2.0
 ARG TARGETARCH
 ARG TARGETVARIANT
 
-FROM alpine:3.21.2 as downloader
+FROM alpine:3.21.3 as downloader
 ARG PAR2CMDLINE_VERSION
 ARG TARGETARCH
 ARG TARGETVARIANT
@@ -22,7 +22,7 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
     chmod +x /tmp/par2cmdline-turbo
 
 # Final Stage
-FROM alpine:3.21.2
+FROM alpine:3.21.3
 COPY --from=downloader /tmp/par2cmdline-turbo /usr/bin/par2
 RUN ln -s /usr/bin/par2 /usr/bin/par2create
 RUN ln -s /usr/bin/par2 /usr/bin/par2repair
