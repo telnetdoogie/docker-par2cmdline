@@ -3,11 +3,13 @@ ARG PAR2CMDLINE_VERSION=1.2.0
 ARG TARGETARCH
 ARG TARGETVARIANT
 
-FROM alpine:3.21.3 as downloader
+FROM alpine:3.21.3 AS downloader
 ARG PAR2CMDLINE_VERSION
 ARG TARGETARCH
 ARG TARGETVARIANT
 
+# update base image for vulns
+RUN apk update && apk upgrade --no-cache
 RUN apk add --no-cache curl xz
 
 # Download and extract the binary
@@ -23,6 +25,10 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
 
 # Final Stage
 FROM alpine:3.21.3
+
+# update base image for vulns
+RUN apk update && apk upgrade --no-cache
+
 COPY --from=downloader /tmp/par2cmdline-turbo /usr/bin/par2
 RUN ln -s /usr/bin/par2 /usr/bin/par2create
 RUN ln -s /usr/bin/par2 /usr/bin/par2repair
