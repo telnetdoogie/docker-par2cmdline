@@ -10,7 +10,7 @@ ARG TARGETVARIANT
 
 # update base image for vulns
 RUN apk update && apk upgrade --no-cache
-RUN apk add --no-cache curl xz
+RUN apk add --no-cache curl unzip
 
 # Download and extract the binary
 RUN case "$TARGETARCH$TARGETVARIANT" in \
@@ -19,8 +19,8 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
         "armv7") ARCH_SUFFIX="armhf" ;; \
         *) echo "Unsupported architecture: $TARGETARCH$TARGETVARIANT" && exit 1 ;; \
     esac && \
-    curl -sSL "https://github.com/animetosho/par2cmdline-turbo/releases/download/v${PAR2CMDLINE_VERSION}/par2cmdline-turbo-v${PAR2CMDLINE_VERSION}-linux-${ARCH_SUFFIX}.xz" -o /tmp/par2cmdline-turbo.xz && \
-    xz -d /tmp/par2cmdline-turbo.xz && \
+    curl -sSL "https://github.com/animetosho/par2cmdline-turbo/releases/download/v${PAR2CMDLINE_VERSION}/par2cmdline-turbo-v${PAR2CMDLINE_VERSION}-linux-${ARCH_SUFFIX}.zip" -o /tmp/par2cmdline-turbo.zip && \
+    unzip /tmp/par2cmdline-turbo.zip -d /tmp/ && \
     chmod +x /tmp/par2cmdline-turbo
 
 # Final Stage
