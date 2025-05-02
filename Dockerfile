@@ -19,9 +19,10 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
         "armv7") ARCH_SUFFIX="armhf" ;; \
         *) echo "Unsupported architecture: $TARGETARCH$TARGETVARIANT" && exit 1 ;; \
     esac && \
-    curl -sSL "https://github.com/animetosho/par2cmdline-turbo/releases/download/v${PAR2CMDLINE_VERSION}/par2cmdline-turbo-v${PAR2CMDLINE_VERSION}-linux-${ARCH_SUFFIX}.zip" -o /tmp/par2cmdline-turbo.zip && \
+    curl -sSL "https://github.com/animetosho/par2cmdline-turbo/releases/download/v${PAR2CMDLINE_VERSION}/par2cmdline-turbo-${PAR2CMDLINE_VERSION}-linux-${ARCH_SUFFIX}.zip" -o /tmp/par2cmdline-turbo.zip && \
     unzip /tmp/par2cmdline-turbo.zip -d /tmp/ && \
     chmod +x /tmp/par2cmdline-turbo
+
 
 # Final Stage
 FROM alpine:3.21.3
