@@ -21,7 +21,7 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
     esac && \
     curl -sSL "https://github.com/animetosho/par2cmdline-turbo/releases/download/v${PAR2CMDLINE_VERSION}/par2cmdline-turbo-${PAR2CMDLINE_VERSION}-linux-${ARCH_SUFFIX}.zip" -o /tmp/par2cmdline-turbo.zip && \
     unzip /tmp/par2cmdline-turbo.zip -d /tmp/ && \
-    chmod +x /tmp/par2cmdline-turbo
+    chmod +x /tmp/par2
 
 
 # Final Stage
@@ -30,7 +30,7 @@ FROM alpine:3.21.3
 # update base image for vulns
 RUN apk update && apk upgrade --no-cache
 
-COPY --from=downloader /tmp/par2cmdline-turbo /usr/bin/par2
+COPY --from=downloader /tmp/par2 /usr/bin/par2
 RUN ln -s /usr/bin/par2 /usr/bin/par2create
 RUN ln -s /usr/bin/par2 /usr/bin/par2repair
 RUN ln -s /usr/bin/par2 /usr/bin/par2verify
