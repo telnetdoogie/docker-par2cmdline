@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.0.1...v2.1.0) (2025-05-03)
+
+
+### Bug Fixes
+
+* Re-added armv7 version for par2cmdline-turbo v1.3.0 ([fa0cc95](https://github.com/telnetdoogie/docker-par2cmdline/commit/fa0cc9578c7dbec080ec5d2010526f03b75823db))
+
+
+
 ## [2.0.1](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.0.0...v2.0.1) (2025-04-30)
 
 
@@ -22,16 +31,6 @@
 ### Bug Fixes
 
 * Update renovate.json ([75c0fef](https://github.com/telnetdoogie/docker-par2cmdline/commit/75c0fef663b39da4a00cd0472b160095fb169357))
-
-
-
-## [1.3.2](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.1...v1.3.2) (2024-12-10)
-
-
-### Bug Fixes
-
-* Added missing symlinks ([6b6fda8](https://github.com/telnetdoogie/docker-par2cmdline/commit/6b6fda8e6912ed11dee633b87ba95071ac867f41))
-* Added missing symlinks ([f4bc8fa](https://github.com/telnetdoogie/docker-par2cmdline/commit/f4bc8fa9e789d970e7fd9aaf6988f854f9bc3393))
 
 
 
