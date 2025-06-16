@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.1.0...v2.2.0) (2025-06-16)
+
+
+### Features
+
+* **deps:** bump release for updated dependencies ([a44d240](https://github.com/telnetdoogie/docker-par2cmdline/commit/a44d240f2a04e9a8ae0e23eb53554bfbbad83a37))
+
+
+
 # [2.1.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.0.1...v2.1.0) (2025-05-03)
 
 
@@ -22,15 +31,6 @@
 ### Bug Fixes
 
 * Update renovate.json ([49b0be6](https://github.com/telnetdoogie/docker-par2cmdline/commit/49b0be62a1463eb1f47fc99197d9e316e086bd01))
-
-
-
-## [1.3.3](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.2...v1.3.3) (2024-12-10)
-
-
-### Bug Fixes
-
-* Update renovate.json ([75c0fef](https://github.com/telnetdoogie/docker-par2cmdline/commit/75c0fef663b39da4a00cd0472b160095fb169357))
 
 
 
