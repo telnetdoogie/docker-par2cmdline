@@ -1,3 +1,12 @@
+# [2.3.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.2.0...v2.3.0) (2025-07-19)
+
+
+### Features
+
+* **deps:** bump release for updated dependencies ([faac233](https://github.com/telnetdoogie/docker-par2cmdline/commit/faac2334b0b596b5c96fafd3acd05df8a005d816))
+
+
+
 # [2.2.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.1.0...v2.2.0) (2025-06-16)
 
 
@@ -22,15 +31,6 @@
 ### Bug Fixes
 
 * update alpine base image for vulns ([016b68b](https://github.com/telnetdoogie/docker-par2cmdline/commit/016b68bc1d77caad18b6b760d9b6a4ef0bffefd6))
-
-
-
-## [1.3.4](https://github.com/telnetdoogie/docker-par2cmdline/compare/v1.3.3...v1.3.4) (2024-12-10)
-
-
-### Bug Fixes
-
-* Update renovate.json ([49b0be6](https://github.com/telnetdoogie/docker-par2cmdline/commit/49b0be62a1463eb1f47fc99197d9e316e086bd01))
 
 
 
