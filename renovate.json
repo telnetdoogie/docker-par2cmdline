@@ -8,8 +8,8 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "Dockerfile$"
+      "managerFilePatterns": [
+        "/Dockerfile$/"
       ],
       "matchStrings": [
         "ARG PAR2CMDLINE_VERSION=(?<currentValue>[0-9\\.]+)"
