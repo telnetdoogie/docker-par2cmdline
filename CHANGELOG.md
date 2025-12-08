@@ -1,3 +1,12 @@
+# [2.4.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.3.0...v2.4.0) (2025-12-08)
+
+
+### Features
+
+* **deps:** bump release for updated dependencies ([4dadd6e](https://github.com/telnetdoogie/docker-par2cmdline/commit/4dadd6ec2b841fcee0269de9b5ef003ce9a8a9d7))
+
+
+
 # [2.3.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.2.0...v2.3.0) (2025-07-19)
 
 
