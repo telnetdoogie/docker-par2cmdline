@@ -26,12 +26,12 @@
     },
     {
       "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
       "groupName": "CI & Build Dependencies"
     },
     {
       "groupName": "CI & Build Dependencies",
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["patch", "digest"],
       "automerge": true,
       "automergeType": "pr"
     }
