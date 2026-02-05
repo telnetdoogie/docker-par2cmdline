@@ -20,12 +20,20 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": [
-        "github-releases"
-      ],
-      "matchDepNames": [
-        "animetosho/par2cmdline-turbo"
-      ]
+      "matchDatasources": ["github-releases"],
+      "matchDepNames": ["animetosho/par2cmdline-turbo"],
+      "groupName": "CI & Build Dependencies"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "CI & Build Dependencies"
+    },
+    {
+      "groupName": "CI & Build Dependencies",
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr"
     }
   ]
 }
