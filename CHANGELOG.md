@@ -1,3 +1,12 @@
+# [2.5.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.4.0...v2.5.0) (2026-02-20)
+
+
+### Features
+
+* Update dependency animetosho/par2cmdline-turbo to v1.4.0 ([8300b9f](https://github.com/telnetdoogie/docker-par2cmdline/commit/8300b9ffe1cfacbef0ef94a76a35fc430b0fdf12))
+
+
+
 # [2.4.0](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.3.0...v2.4.0) (2025-12-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Re-added armv7 version for par2cmdline-turbo v1.3.0 ([fa0cc95](https://github.com/telnetdoogie/docker-par2cmdline/commit/fa0cc9578c7dbec080ec5d2010526f03b75823db))
-
-
-
-## [2.0.1](https://github.com/telnetdoogie/docker-par2cmdline/compare/v2.0.0...v2.0.1) (2025-04-30)
-
-
-### Bug Fixes
-
-* update alpine base image for vulns ([016b68b](https://github.com/telnetdoogie/docker-par2cmdline/commit/016b68bc1d77caad18b6b760d9b6a4ef0bffefd6))
 
 
 
