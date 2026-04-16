@@ -3,7 +3,7 @@ ARG PAR2CMDLINE_VERSION=1.4.0
 ARG TARGETARCH
 ARG TARGETVARIANT
 
-FROM alpine:3.23.3 AS downloader
+FROM alpine:3.23.4 AS downloader
 ARG PAR2CMDLINE_VERSION
 ARG TARGETARCH
 ARG TARGETVARIANT
@@ -25,7 +25,7 @@ RUN case "$TARGETARCH$TARGETVARIANT" in \
 
 
 # Final Stage
-FROM alpine:3.23.3
+FROM alpine:3.23.4
 
 # update base image for vulns
 RUN apk update && apk upgrade --no-cache
